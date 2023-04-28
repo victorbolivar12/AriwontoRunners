@@ -1,67 +1,55 @@
 # Ariwonto Runners
+
 <p align="center">
   <img src="https://github.com/victorbolivar12/AriwontoRunners/blob/main/src/assets/logo.png" width="400" height="400">
 </p>
-La aplicación web que estoy desarrollando es un sistema de gestión de carreras, corredores y patrocinadores. Está siendo construida con React y TypeScript, y ofrece una amplia gama de funcionalidades para facilitar la gestión de eventos deportivos. Algunas de estas funcionalidades incluyen un sistema de inicio de sesión seguro, un dashboard personalizado para cada usuario, y la posibilidad de realizar operaciones CRUD sobre la información de corredores, carreras y patrocinadores.
+The web application that I am developing is a race, broker and sponsor management system. It is being built with React and TypeScript, and offers a wide range of functionalities to facilitate the management of sporting events. Some of these features include a secure login system, a personalized dashboard for each user, and the ability to perform CRUD operations on the information of runners, races, and sponsors.
 
-La plataforma proporciona a los usuarios una vista general del estado de las carreras, corredores y patrocinadores involucrados en cada evento, lo que permite una gestión más efectiva y un mejor seguimiento del progreso de cada carrera. Además, la interfaz de usuario es intuitiva y fácil de usar, lo que permite una experiencia de usuario agradable y sin problemas.
+## Used Technology
 
-
-## Tecnologías utilizadas
 - React
 - TypeScript
-- ReactBoostrap, Materialui, Datatable, ReactIcons
-- Otras tecnologías utilizadas (Redux, Axios, etc.)
+- Nestjs
+- React-Boostrap, Materialui, Datatable, ReactIcons
+- Other technologies used (Redux, Axios, etc.)
 
-## Funcionalidades
-- Login: Esta funcionalidad permite a los usuarios autenticarse en la aplicación web, lo que les da acceso a todas las funcionalidades y características del sistema
-- Dashboard: El dashboard es la pantalla principal de la aplicación web, en la que los usuarios pueden ver una vista general de las carreras, corredores y patrocinadores
-- CRUD de corredores: Esta funcionalidad permite a los usuarios realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la información de corredores
-- CRUD de carreras: Con esta funcionalidad, los usuarios pueden realizar operaciones CRUD sobre la información de las carreras en la plataforma.
-- CRUD de patrocinadores:la funcionalidad de CRUD de patrocinadores permite a los usuarios realizar operaciones CRUD sobre la información de los patrocinadores
+## Functionalities
 
-## Capturas de pantalla
+- Login: This functionality allows users to authenticate themselves in the web application, which gives them access to all the functionalities and features of the system
+- Dashboard: The dashboard is the main screen of the web application, where users can see an overview of the races, riders and sponsors
+- Broker CRUD: This functionality allows users to perform CRUD operations (create, read, update and delete) on broker information
+- CRUD of races: With this functionality, users can perform CRUD operations on the information of the races on the platform.
+- Sponsor CRUD: Sponsor CRUD functionality allows users to perform CRUD operations on sponsor information
+
+## Screenshots
 ### Login
-Esta funcionalidad permite a los usuarios autenticarse en la aplicación web, lo que les da acceso a todas las funcionalidades y características del sistema. El inicio de sesión se realiza mediante un formulario de autenticación, y se incluyen características de seguridad adicionales para garantizar el acceso autorizado a la plataforma.
+This functionality allows users to authenticate themselves to the web application, which gives them access to all the functionalities and features of the system. Login is done using an authentication form, and additional security features are included to ensure authorized access to the platform.
 ![login](https://github.com/victorbolivar12/AriwontoRunners/blob/main/src/assets/Login.png)
 
 ### Dasboard
-El dashboard es la pantalla principal de la aplicación web, en la que los usuarios pueden ver una vista general de las carreras, corredores y patrocinadores involucrados en cada evento. La información se presenta en gráficos, tablas y otros elementos visuales, lo que permite una visualización rápida y sencilla de los datos relevantes.
-![login](https://github.com/victorbolivar12/AriwontoRunners/blob/main/src/assets/Dashboard.png)
+The dashboard is the main screen of the web application, where users can see an overview of the races, runners and sponsors involved in each event. The information is presented in graphs, tables and other visual elements, allowing quick and easy visualization of the relevant data.
+![dashboard](https://github.com/victorbolivar12/AriwontoRunners/blob/main/src/assets/Dashboard.png)
 
-### CRUD de corredores
-Esta funcionalidad permite a los usuarios realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la información de corredores en la aplicación web. Los usuarios pueden agregar nuevos corredores, ver detalles sobre los corredores existentes, actualizar la información de los corredores y eliminar corredores que ya no son relevantes.
+### Runners CRUD
+This functionality allows users to perform CRUD (create, read, update and delete) operations on broker information in the web application. Users can add new brokers, view details about existing brokers, update broker information, and remove brokers that are no longer relevant.
 ![login](https://github.com/victorbolivar12/AriwontoRunners/blob/main/src/assets/AddRunner.png)
 
+### Racing CRUD
+With this functionality, users can perform CRUD operations on the race information on the platform. You can add new races, view details about existing races, update race information, and delete races that are no longer relevant.
 
-### CRUD de carreras
-Con esta funcionalidad, los usuarios pueden realizar operaciones CRUD sobre la información de las carreras en la plataforma. Se pueden agregar nuevas carreras, ver detalles sobre las carreras existentes, actualizar la información de las carreras y eliminar carreras que ya no son relevantes.
+### Sponsor CRUD
+The Sponsor CRUD functionality allows users to perform CRUD operations on the information of the sponsors involved in each race. You can add new sponsors, view details about existing sponsors, update sponsor information, and remove sponsors that are no longer relevant.
 
-### CRUD de patrocinadores
-La funcionalidad de CRUD de patrocinadores permite a los usuarios realizar operaciones CRUD sobre la información de los patrocinadores involucrados en cada carrera. Se pueden agregar nuevos patrocinadores, ver detalles sobre los patrocinadores existentes, actualizar la información de los patrocinadores y eliminar patrocinadores que ya no son relevantes.
+## Installation and Configuration
 
-## Instalación y configuración
-### Requisitos Previos
-Antes de instalar y configurar la aplicación, debes asegurarte de tener las siguientes herramientas y componentes instalados en tu máquina:
-- Node.js (versión 14 o superior)
-- npm (incluido con Node.js) o Yarn
+### Previous Requirements
+Before installing and configuring the application, you must ensure that you have the following tools and components installed on your machine:
 
-### Instalación
-Una vez que hayas confirmado que tienes los requisitos previos instalados, sigue estos pasos para instalar y configurar la aplicación:
+- Node.js (version 14 or higher)
+- npm (included with Node.js) or Yarn
 
-1. Clona el repositorio del proyecto desde Github: 
-<code>git clone https://github.com/victorbolivar12/AriwontoRunners.git</code>.
+### Installation
 
-2. Accede al directorio del proyecto:
-<code>cd ariwontorunner</code>
-
-3. Instala las dependencias del proyecto utilizando npm o Yarn:
-<code>npm install</code>
-o
-<code>yarn install</code>
-
-### Ejecucion
-Una vez que hayas instalado las dependencias del proyecto, puedes iniciar la aplicación utilizando el siguiente comando:
-<code>npm run dev</code> o <code>yarn dev</code>
-
-Este comando iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador web en la dirección http://localhost:3000.
+```bash
+$ npm install
+```
